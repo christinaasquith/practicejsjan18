@@ -1,0 +1,35 @@
+body {
+    align-items: center;
+    padding: 400px;
+    background-color: lavender;
+    color: black;
+    justify-content: center;
+    min-height: 100vh;
+
+}
+#color {
+    width: 300px;
+    border: 5px solid pink;
+}
+
+color.is-clicked {
+    background-color: pink;
+}
+
+.circle {
+    width:  15rem;
+    height: 15rem;
+    border: 10px solid pink;
+    border-radius: 50px;
+    background:whitesmoke;
+    background-image: url(https://cloud-7h3pb0d86.vercel.app/0screen_shot_2021-01-19_at_6.32.12_am.png);
+    background-size: cover;
+    box-shadow: 0 0 0 4px rgba(0, 0, 0, 0.1), inset 0 0 0 3px #efefef,
+    inset 0 0 10px black, 0 0 10px rgba(0, 0, 0, 0.2);
+
+
+}
+ circle.is-clicked {
+     background-image: url(https://cloud-2r30tu1jz.vercel.app/0screen_shot_2021-01-19_at_7.03.40_am.png);
+     background-size: cover;
+ }
